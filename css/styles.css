@@ -1,0 +1,166 @@
+#title {
+  background-color: #ff4c68;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.1rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+  padding-bottom: 5%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.row {
+  padding-top: 7%;
+}
+
+.nav-item {
+  padding:0 10px;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  position:relative;
+  right: 15px;
+}
+
+.iphone {
+  padding-left: 35px;
+  width: 65%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 28%;
+}
+
+.db {
+  margin-right: 3%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.Featuresicon {
+  transform: scale(2,2);
+  color: #ff8080;
+  margin-bottom: 15px;
+}
+
+.Featuresicon:hover {
+  color: #ff4d4d;
+}
+
+.col-lg-4 {
+  text-align: center;
+  font-family: "Montserrat-Thin";
+  padding-top: 8%;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h2 {
+  font-style: "Montserrat-Bold";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 992px) {
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 4% 10%;
+}
+
+.ctah3 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  color: #fff;
+  margin: auto;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+.ctab {
+  margin: 50px 10px;
+}
+
+#footer {
+  text-align: center;
+  padding: 5% 0;
+}
+
+.fi {
+  margin: 10px 15px;
+}
+
+.fp {
+  margin: 15px auto;
+}
